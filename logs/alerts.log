@@ -1,0 +1,2 @@
+[2026-05-01 15:40:46] CRITICAL: CPU = 95 (warn=70, crit=90)
+[2026-05-01 15:40:46] WARNING: MEMORY = 70 (warn=65, crit=75)
