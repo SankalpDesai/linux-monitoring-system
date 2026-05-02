@@ -1,0 +1,34 @@
+[2026-05-02 09:49:08] INFO: Starting security updates on DESKTOP-FQP93OI
+[2026-05-02 09:49:08] INFO: Detected distro: ubuntu 24.04
+[2026-05-02 09:49:08] INFO: Running security updates...
+[2026-05-02 09:49:08] INFO: Running Ubuntu/Debian security updates...
+Hit:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+[2026-05-02 09:49:08] INFO: Using unattended-upgrade for security-only updates
+Applying pinning: PkgFilePin(id=13, priority=-32768)
+Applying pin -32768 to package_file: <apt_pkg.PackageFile object: filename:'/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_i18n_Translation-en'  a=noble-updates,c=restricted,v=24.04,o=Ubuntu,l=Ubuntu arch='' site='archive.ubuntu.com' IndexType='Debian Translation Index' Size=13909019 ID:13>
+Applying pinning: PkgFilePin(id=12, priority=-32768)
+Applying pin -32768 to package_file: <apt_pkg.PackageFile object: filename:'/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble-updates_restricted_binary-amd64_Packages'  a=noble-updates,c=restricted,v=24.04,o=Ubuntu,l=Ubuntu arch='amd64' site='archive.ubuntu.com' IndexType='Debian Package Index' Size=18186479 ID:12>
+Applying pinning: PkgFilePin(id=11, priority=-32768)
+Applying pin -32768 to package_file: <apt_pkg.PackageFile object: filename:'/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble-updates_universe_i18n_Translation-en'  a=noble-updates,c=universe,v=24.04,o=Ubuntu,l=Ubuntu arch='' site='archive.ubuntu.com' IndexType='Debian Translation Index' Size=3554478 ID:11>
+Applying pinning: PkgFilePin(id=10, priority=-32768)
+Applying pin -32768 to package_file: <apt_pkg.PackageFile object: filename:'/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble-updates_universe_binary-amd64_Packages'  a=noble-updates,c=universe,v=24.04,o=Ubuntu,l=Ubuntu arch='amd64' site='archive.ubuntu.com' IndexType='Debian Package Index' Size=10541670 ID:10>
+Applying pinning: PkgFilePin(id=9, priority=-32768)
+Applying pin -32768 to package_file: <apt_pkg.PackageFile object: filename:'/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble-updates_main_i18n_Translation-en'  a=noble-updates,c=main,v=24.04,o=Ubuntu,l=Ubuntu arch='' site='archive.ubuntu.com' IndexType='Debian Translation Index' Size=7459681 ID:9>
+Applying pinning: PkgFilePin(id=8, priority=-32768)
+Applying pin -32768 to package_file: <apt_pkg.PackageFile object: filename:'/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble-updates_main_binary-amd64_Packages'  a=noble-updates,c=main,v=24.04,o=Ubuntu,l=Ubuntu arch='amd64' site='archive.ubuntu.com' IndexType='Debian Package Index' Size=10755137 ID:8>
+Using (^linux-.*-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^kfreebsd-.*-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^gnumach-.*-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^.*-modules-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^.*-kernel-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^linux-.*-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^kfreebsd-.*-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^gnumach-.*-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^.*-modules-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$|^.*-kernel-[1-9][0-9]*\.[0-9]+\.[0-9]+-[0-9]+(-.+)?$) regexp to find kernel packages
+Using (^linux-.*-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^kfreebsd-.*-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^gnumach-.*-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^.*-modules-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^.*-kernel-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^linux-.*-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^kfreebsd-.*-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^gnumach-.*-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^.*-modules-6\.6\.87\.2\-microsoft\-standard\-WSL2$|^.*-kernel-6\.6\.87\.2\-microsoft\-standard\-WSL2$) regexp to find running kernel packages
+pkgs that look like they should be upgraded: 
+Fetched 0 B in 0s (0 B/s)                                                       
+fetch.run() result: 0
+Packages blacklist due to conffile prompts: []
+No packages found that can be upgraded unattended and no pending auto-removals
+Extracting content from /var/log/unattended-upgrades/unattended-upgrades-dpkg.log since 2026-05-02 09:49:19
+[2026-05-02 09:49:20] SUCCESS: Ubuntu/Debian security updates completed
+[2026-05-02 09:49:20] INFO: Security update process completed in 12 seconds
+[2026-05-02 09:49:20] INFO: Checking if reboot is required...
+[2026-05-02 09:49:20] INFO: No reboot required
+[2026-05-02 09:49:20] INFO: Security update finished
+[2026-05-02 09:49:20] INFO: Next run: Sunday 3AM (via cron)
